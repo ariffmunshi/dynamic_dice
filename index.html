@@ -12,10 +12,12 @@
     <h1>My Dice Machine</h1>
     <div>
         <label>Set number of sides:</label>
-        <input type="number" min="1" placeholder="6"/>
+        <input id="dice-number" type="number" min="1" placeholder="6"/>
     </div>
-    <button>
+    <button onclick="rollDice()">
         Roll Dice!
     </button>
+    <h3>Result:</h3>
+    <h3 id="result"></h3>
 </body>
 </html>
